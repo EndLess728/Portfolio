@@ -26,7 +26,7 @@ const greeting = {
     "A passionate and experienced Software Developer 🚀 having 5+ years of expertise in building Mobile applications with JavaScript / React Native / Java / Swift and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/18Vp_DXQli1vWvEADsdf-FTYTQuU8vw92/view", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1BM6FxBiuKHdHnC_u3vhGtK0jZ-1n82EnZLL0ZxU0lnE/edit", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
