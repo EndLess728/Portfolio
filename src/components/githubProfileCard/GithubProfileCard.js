@@ -6,8 +6,8 @@ import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
 
 export default function GithubProfileCard({prof}) {
-  const linkdinStaticProfilePicture =
-    "https://media.licdn.com/dms/image/C4E03AQFGnjLlrl7VGA/profile-displayphoto-shrink_800_800/0/1624444866706?e=1715817600&v=beta&t=UjLMMZWw5RBtYKqbZ24HSAIIWk0mFZ_OC-QINn4BJ0E";
+  const linkdinStaticProfilePicture = require("../../assets/mantu_profile.png");
+
   if (isHireable) {
     prof.hireable = "Yes";
   } else {
