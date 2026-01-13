@@ -23,7 +23,7 @@ const greeting = {
   username: "Mantu Kumar",
   title: "Hi all, I'm Mantu",
   subTitle: emoji(
-    "A passionate and experienced Software Developer 🚀 having 5+ years of expertise in building Mobile applications with JavaScript / React Native / Java / Swift and some other cool libraries and frameworks."
+    "A passionate and experienced Software Developer 🚀 having 7+ years of expertise in building Mobile applications with  React Native / Expo / JavaScript / TypeScript / Java / Swift and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1jxb3ovWMGDjPyQEG2GBNIumikrnX5vBJ/view", // Set to empty to hide the button
@@ -52,28 +52,28 @@ const skillsSection = {
   subTitle: "CRAFTING AWESOME MOBILE EXPERIENCES WITH A TOUCH OF MAGIC",
   skills: [
     emoji(
-      "⚡ Transforming prototypes and wireframes into stunning app and UI components"
+      "⚡ Leading and mentoring development teams, enforcing TypeScript standards to boost productivity"
     ),
     emoji(
-      "⚡ Harnessing the power of Redux (THUNK/SAGA) for seamless state management and enhanced app performance"
+      "⚡ Building AI-powered features using MediaPipe for real-time pose estimation and workout tracking"
     ),
     emoji(
-      "⚡ Expertise in integrating with REST APIs, implementing request models, offline storage, and leveraging third-party libraries"
+      "⚡ Architecting Turbo Modules for React Native's New Architecture with Expo compatibility"
     ),
     emoji(
-      "⚡ Seamlessly integrating payment gateways like Stripe, Paypal, and In-app Purchase for smooth transactions"
+      "⚡ Mastering state management with Zustand, TanStack Query, and Redux for optimal app performance"
     ),
     emoji(
-      "⚡ Seamless integration with third-party services such as Firebase, Google Maps, Socket.io, and Agora for enhanced functionality"
+      "⚡ Seamlessly integrating payment gateways like Stripe, Apple Tap to Pay, and In-app Purchase"
     ),
     emoji(
-      "⚡ Implementing hassle-free third-party logins including Google, Facebook, Apple, and Twitter for streamlined user experience"
+      "⚡ Building real-time features with Firebase, Google Maps, WebSockets, and Agora"
     ),
     emoji(
-      "⚡ Leveraging Native Modules to incorporate native functionalities seamlessly"
+      "⚡ Creating production-ready boilerplates with TypeScript, ESLint, Prettier, and Husky pre-commit hooks"
     ),
     emoji(
-      "⚡ Implementing robust testing methodologies to ensure app reliability and performance across various devices and platforms"
+      "⚡ Implementing robust testing with Jest to ensure app reliability across platforms"
     )
   ],
 
@@ -90,20 +90,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "Expo",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Next.js",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
       skillName: "Swift",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "Realm MongoDB",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "firebase",
@@ -169,20 +177,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "80%"
-    },
-    {
       Stack: "React-Native",
       progressPercentage: "95%"
     },
     {
-      Stack: "Github",
-      progressPercentage: "80%"
+      Stack: "Expo",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "TypeScript",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Zustand / TanStack Query",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Next.js",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -194,25 +206,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior React-Native Developer",
-      company: "iTechnolabs Software",
+      role: "Sr. React Native Developer & Team Lead",
+      company: "iTechnolabs Pvt. Ltd.",
       companylogo: require("./assets/images/iTech.png"),
       date: "Aug 2022 – Present",
-      desc: "At iTechnolabs Software, I hold the role of Senior React-Native Developer, where I play a pivotal role in guiding our team through the development process. Leveraging my expertise, I provide mentorship and assistance to ensure the seamless creation of high-quality hybrid mobile applications that meet and exceed our clients' expectations."
+      desc: "Leading a talented team of developers while building innovative mobile experiences. I've worked on exciting projects like integrating AI-powered pose detection using MediaPipe, architecting native Turbo Modules for React Native's New Architecture, and crafting a production-ready Expo boilerplate that our team uses as a foundation for new projects."
     },
     {
-      role: "Senior React-Native Developer",
+      role: "Sr. React Native Developer",
       company: "Suffescom Solutions Pvt. Ltd.",
       companylogo: require("./assets/images/suffescom.png"),
       date: "Oct 2021 – Aug 2022",
-      desc: "As a Senior React-Native Developer, I spearhead the development of high-performance hybrid mobile applications at Suffescom Solutions Pvt. Ltd. Leveraging my expertise, I lead a team in crafting cutting-edge solutions that drive business growth and user satisfaction."
+      desc: "Guided a team of developers while establishing clean coding practices and standards. Built robust features like reliable background task handling on Android and developed a food delivery app with real-time driver tracking using WebSockets and Maps integration."
     },
     {
-      role: "iOS & React-Native Developer",
+      role: "Junior iOS Developer & React Native Developer",
       company: "Immanent Solutions",
       companylogo: require("./assets/images/Immanent.png"),
-      date: "June 2018 – Oct 2021",
-      desc: "At Immanent Solutions, I embarked on my professional journey as an iOS Developer, transitioning seamlessly into the realm of React-Native for hybrid mobile app development. I played a pivotal role in delivering innovative solutions, laying the foundation for my expertise in mobile app development."
+      date: "Sept 2018 – Oct 2021",
+      desc: "Started my journey as an iOS developer and grew into React Native development. Built mobile apps across diverse domains including events, education, social networking, and crypto. Focused on security best practices and successfully migrated native iOS projects to cross-platform React Native solutions."
     }
   ]
 };
@@ -232,89 +244,60 @@ const bigProjects = {
   subtitle: "THE PROJECTS I HAVE WORKED ON",
   projects: [
     {
+      image: require("./assets/images/focusbear.png"),
+      projectName: "Focusbear - ADHD",
+      projectDesc:
+        "Productivity app helping users block distractions and build healthy habits. Built native modules for Android (distraction-blocking dialog) and iOS (Screen Time API), achieving 50% decrease in user distractions with 99.9% uptime.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://focusbear.io"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/elevyn.webp"),
+      projectName: "Elevyn - AI Fitness",
+      projectDesc:
+        "AI-powered fitness app with personalized workouts, meal planning, and calorie tracking. Integrated MediaPipe PoseLandmarker for real-time workout form analysis across 33 body landmarks, boosting user engagement by 35%.",
+      footerLink: []
+    },
+    {
+      image: require("./assets/images/jobr.webp"),
+      projectName: "JOBR - POS",
+      projectDesc:
+        "Point of Sale system for service management. Crafted a custom calendar module, integrated Apple's Tap to Pay, and built a wallet module for JOBR coins. Also developed a Next.js web app for cross-platform functionality.",
+      footerLink: []
+    },
+    {
+      image: require("./assets/images/ride2duty.webp"),
+      projectName: "Ride2Duty",
+      projectDesc:
+        "Corporate mobility platform streamlining employee commutes via automated scheduling. Designed resilient background location service bypassing Android Doze mode with 100% tracking reliability and stutter-free map animations.",
+      footerLink: []
+    },
+    {
       image: require("./assets/images/mealed.webp"),
       projectName: "Mealed",
       projectDesc:
-        "Mealed is food ordering app. There are three apps available Customer App, Restaurant App and Driver App",
+        "On-demand food ordering and delivery platform with Customer, Restaurant, and Driver apps. Integrated React Native Maps for real-time tracking, Stripe payments, wallet module, Notifee for push notifications, and Agora for in-app calling.",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://mealed.net/"
         }
-        //  you can add extra buttons here.
       ]
     },
 
-    {
-      image: require("./assets/images/iSend.webp"),
-      projectName: "iSend",
-      projectDesc:
-        "Get your Parcel deliveredTo their destination at the right time in the quickest way. There are two apps Customer App, Driver App",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.isendlogistics.com/"
-        }
-      ]
-    },
     {
       image: require("./assets/images/medsonwheels.webp"),
       projectName: "Meds On Wheels",
       projectDesc:
-        "Meds On Wheels is used to Browse local pharmacies and order the medication to your door while tracking the delivery throughout the full process.",
+        "Browse local pharmacies and order medication to your door while tracking the delivery throughout the full process.",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://meds-on-wheels.com/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/talkie.png"),
-      projectName: "Talkie",
-      projectDesc:
-        "Speaking a foreign language isn’t always easy. Talkie is an app that helps your students learn by doing.Little but often. This app has three modules Admin, Teacher, Student",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://talkietheapp.com/"
-        }
-      ]
-    },
-
-    {
-      image: require("./assets/images/emove.webp"),
-      projectName: "EMove Ride",
-      projectDesc:
-        "EMove Ride app provides convenience to the customers to book a taxi and reach their destination. There are two apps Customer App, Driver App",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://emoveride.co.uk/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/ror.webp"),
-      projectName: "Ride O Ride",
-      projectDesc:
-        "Ride O Ride provides comfortable travel solution at a cost-effective price. There are two apps Customer App, Driver App",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.suffescom.com/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/eventickets.webp"),
-      projectName: "EvenTickets",
-      projectDesc:
-        "The app will scan to check the validity of tickets generated from EvenTickets website. It’s like a tool for Organizer to validate the original and duplicate tickets for their event.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://eventickets.com.au/"
         }
       ]
     },
@@ -455,7 +438,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-0000000000",
+  number: "+91 9464542728",
   email_address: "aryanmk.mk5@gmail.com"
 };
 
